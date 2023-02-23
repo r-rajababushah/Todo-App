@@ -1,10 +1,10 @@
-Project Name: Kitchen-Wizard
-Project Type: Recipe App
+# Project Name: Kitchen-Wizard
+## Project Type: Recipe App
 
-Project Idea: 
+### Project Idea: 
     - A recipe app that allows users to browse, search, and save recipes. Users can also create their own recipes, edit and delete them.
 
-Features: 
+### Features: 
     - User authentication : signup/signin 
     - Browse recipes
     - Search recipies
@@ -14,7 +14,7 @@ Features:
     - Edit recipe
     - Delete recipe
 
-Extra features if possible: 
+#### Extra features if possible: 
     - Create recipe and save them to their account
     - Adding ability to upload and display images for each recipe.
     - Adding a rating system
@@ -23,7 +23,7 @@ Extra features if possible:
     - Generate shopping list.(Allow users to generate a shopping list based on the ingredients required for a recipe, Using React-Pdf, to dwonload pdf shopping list)
     - A meal planning.(allow users to plan their meals for the week or month by adding recipes to a meal plan, using library like React Big Calender to display the meal plan and allow users to drag and droop recipes onto each day.)
 
-Challenges
+### Challenges
     - Implimenting user authentication sing a thired-party library like firebase or auth0.
     - Creating a user-friendly interface that allows users to easily browse, search and save recipes.
     - Desingning a scalable and efficient data model to store recipes and user information.
@@ -33,7 +33,7 @@ Challenges
     - State management: Handling user input and updating UI, using redux
     - Data storage: Storing recipes in a database or JSON file (read, write, handle error, and edge cases.)
 
-Project Plan
+### Project Plan
     - Plan and design the app : plan out the data model and user interface.
     - Set up the development enviroment: install and configure the necessary tools and dependencies , such as react, nodejs and a database.
     - Implement user authentication : Use a thired-party library to authenticate users and store user information.
@@ -54,7 +54,7 @@ Project Plan
     - Deploy the app to a hosting service like Netlify/Github pages.
 
 
-Components Breakdown
+### Components Breakdown
     - RecipeList
     - RecipeDetails
     - RecipeForm
